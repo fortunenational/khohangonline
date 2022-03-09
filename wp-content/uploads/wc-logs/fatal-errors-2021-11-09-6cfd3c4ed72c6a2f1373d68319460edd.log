@@ -1,0 +1,90 @@
+2021-11-09T03:00:33+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php:270
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php(270): count(NULL)
+#1 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Marketing.php(118): Automattic\WooCommerce\Admin\Features\Marketing->get_knowledge_base_posts('marketing')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(1140): Automattic\WooCommerce\Admin\API\Marketing->get_knowledge_base_posts(Object(WP_REST_Request))
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/marke...', Array, NULL)
+#4 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wc-admin/marke...')
+#6 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+#7 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#10 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp.php(750): WP->parse_request('')
+#11 C:\xampp1\htdocs\webtmdt\wp-includes\functions.php(1291): WP->main('')
+#12 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(16): wp()
+#13 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#14 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php on line 270
+
+2021-11-09T03:00:37+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php:270
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php(270): count(NULL)
+#1 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Marketing.php(118): Automattic\WooCommerce\Admin\Features\Marketing->get_knowledge_base_posts('marketing')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(1140): Automattic\WooCommerce\Admin\API\Marketing->get_knowledge_base_posts(Object(WP_REST_Request))
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/marke...', Array, NULL)
+#4 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wc-admin/marke...')
+#6 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+#7 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#10 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp.php(750): WP->parse_request('')
+#11 C:\xampp1\htdocs\webtmdt\wp-includes\functions.php(1291): WP->main('')
+#12 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(16): wp()
+#13 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#14 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php on line 270
+
+2021-11-09T04:05:09+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php:270
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php(270): count(NULL)
+#1 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Marketing.php(118): Automattic\WooCommerce\Admin\Features\Marketing->get_knowledge_base_posts('marketing')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(1140): Automattic\WooCommerce\Admin\API\Marketing->get_knowledge_base_posts(Object(WP_REST_Request))
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/marke...', Array, NULL)
+#4 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wc-admin/marke...')
+#6 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+#7 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#10 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp.php(750): WP->parse_request('')
+#11 C:\xampp1\htdocs\webtmdt\wp-includes\functions.php(1291): WP->main('')
+#12 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(16): wp()
+#13 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#14 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php on line 270
+
+2021-11-09T04:05:24+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php:270
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php(270): count(NULL)
+#1 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Marketing.php(118): Automattic\WooCommerce\Admin\Features\Marketing->get_knowledge_base_posts('marketing')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(1140): Automattic\WooCommerce\Admin\API\Marketing->get_knowledge_base_posts(Object(WP_REST_Request))
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/marke...', Array, NULL)
+#4 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 C:\xampp1\htdocs\webtmdt\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wc-admin/marke...')
+#6 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+#7 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#9 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#10 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp.php(750): WP->parse_request('')
+#11 C:\xampp1\htdocs\webtmdt\wp-includes\functions.php(1291): WP->main('')
+#12 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(16): wp()
+#13 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#14 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Marketing.php on line 270
+
+2021-11-09T06:37:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp1\htdocs\webtmdt\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-11-09T07:11:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp1\htdocs\webtmdt\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-11-09T07:15:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp1\htdocs\webtmdt\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-11-09T07:32:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp1\htdocs\webtmdt\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-11-09T07:34:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp1\htdocs\webtmdt\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-11-09T07:46:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp1\htdocs\webtmdt\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-11-09T07:57:00+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in C:\xampp1\htdocs\webtmdt\wp-includes\Requests\Transport\cURL.php on line 165
+

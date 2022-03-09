@@ -1,0 +1,42 @@
+2021-11-19T02:50:39+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('Binhymhg@gmail....')
+#2 C:\xampp\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\webtmdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\webtmdt\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-19T04:04:56+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on null in C:\xampp\htdocs\webtmdt\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php:281
+Stack trace:
+#0 C:\xampp\htdocs\webtmdt\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php(162): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(550, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\webtmdt\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 C:\xampp\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 C:\xampp\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\webtmdt\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#7 {main}
+  thrown in C:\xampp\htdocs\webtmdt\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php on line 281
+
+2021-11-19T04:19:01+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on bool in C:\xampp\htdocs\webtmdt\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php:281
+Stack trace:
+#0 C:\xampp\htdocs\webtmdt\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php(162): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\webtmdt\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 C:\xampp\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 C:\xampp\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\webtmdt\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#7 {main}
+  thrown in C:\xampp\htdocs\webtmdt\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php on line 281
+
+2021-11-19T09:11:04+00:00 CRITICAL syntax error, unexpected single-quoted string "<mark class="order-status">", expecting ")" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\templates\myaccount\view-order.php on line 31
+
+2021-11-19T09:12:11+00:00 CRITICAL syntax error, unexpected single-quoted string "<mark class="order-status" sty...", expecting ")" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\templates\myaccount\view-order.php on line 31
+
+2021-11-19T09:12:15+00:00 CRITICAL syntax error, unexpected single-quoted string "<mark class="order-status" sty...", expecting ")" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\templates\myaccount\view-order.php on line 31
+

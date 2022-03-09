@@ -1,0 +1,99 @@
+2021-11-26T03:22:23+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('Binhymhg@gmail....')
+#2 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp1\htdocs\webtmdt\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-26T06:45:29+00:00 CRITICAL syntax error, unexpected integer "123", expecting ":" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\templates\myaccount\view-order.php on line 29
+
+2021-11-26T06:45:48+00:00 CRITICAL syntax error, unexpected integer "123", expecting ":" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\templates\myaccount\view-order.php on line 29
+
+2021-11-26T06:46:13+00:00 CRITICAL syntax error, unexpected integer "123", expecting ":" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\templates\myaccount\view-order.php on line 29
+
+2021-11-26T06:46:20+00:00 CRITICAL syntax error, unexpected integer "123", expecting ":" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\templates\myaccount\view-order.php on line 29
+
+2021-11-26T06:46:20+00:00 CRITICAL syntax error, unexpected integer "123", expecting ":" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\templates\myaccount\view-order.php on line 29
+
+2021-11-26T06:53:02+00:00 CRITICAL syntax error, unexpected identifier "esc_html__", expecting ")" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\templates\myaccount\view-order.php on line 32
+
+2021-11-26T07:13:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ship_plugin_registration_hook" not found or invalid function name in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp1\htdocs\webtmdt\wp-admin\includes\plugin.php(698): do_action('activate_shipwa...', false)
+#3 C:\xampp1\htdocs\webtmdt\wp-admin\plugins.php(58): activate_plugin('shipway-shipmen...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php on line 303
+
+2021-11-26T07:13:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ship_plugin_registration_hook" not found or invalid function name in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp1\htdocs\webtmdt\wp-admin\plugins.php(193): do_action('activate_shipwa...')
+#3 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php on line 303
+
+2021-11-26T07:13:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ship_plugin_registration_hook" not found or invalid function name in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp1\htdocs\webtmdt\wp-admin\plugins.php(193): do_action('activate_shipwa...')
+#3 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php on line 303
+
+2021-11-26T07:13:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ship_plugin_registration_hook" not found or invalid function name in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp1\htdocs\webtmdt\wp-admin\includes\plugin.php(698): do_action('activate_shipwa...', false)
+#3 C:\xampp1\htdocs\webtmdt\wp-admin\plugins.php(58): activate_plugin('shipway-shipmen...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php on line 303
+
+2021-11-26T07:13:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ship_plugin_registration_hook" not found or invalid function name in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp1\htdocs\webtmdt\wp-admin\plugins.php(193): do_action('activate_shipwa...')
+#3 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php on line 303
+
+2021-11-26T07:13:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ship_plugin_registration_hook" not found or invalid function name in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp1\htdocs\webtmdt\wp-admin\plugins.php(193): do_action('activate_shipwa...')
+#3 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php on line 303
+
+2021-11-26T07:17:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ship_plugin_registration_hook" not found or invalid function name in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp1\htdocs\webtmdt\wp-admin\includes\plugin.php(698): do_action('activate_shipwa...', false)
+#3 C:\xampp1\htdocs\webtmdt\wp-admin\plugins.php(58): activate_plugin('shipway-shipmen...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php on line 303
+
+2021-11-26T07:17:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ship_plugin_registration_hook" not found or invalid function name in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp1\htdocs\webtmdt\wp-admin\plugins.php(193): do_action('activate_shipwa...')
+#3 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php on line 303
+
+2021-11-26T07:17:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ship_plugin_registration_hook" not found or invalid function name in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp1\htdocs\webtmdt\wp-admin\plugins.php(193): do_action('activate_shipwa...')
+#3 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php on line 303
+

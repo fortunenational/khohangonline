@@ -1,0 +1,22 @@
+2021-11-17T03:01:48+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('Binhymhg@gmail....')
+#2 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp1\htdocs\webtmdt\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-17T09:41:33+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, bool given in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woo-orders-tracking\includes\admin\export-orders-tracking.php:478
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woo-orders-tracking\includes\admin\export-orders-tracking.php(478): in_array('order_id', false)
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): VI_WOO_ORDERS_TRACKING_ADMIN_EXPORT_ORDERS_TRACKING->settings_callback('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-admin\admin.php(259): do_action('orders-tracking...')
+#5 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woo-orders-tracking\includes\admin\export-orders-tracking.php on line 478
+

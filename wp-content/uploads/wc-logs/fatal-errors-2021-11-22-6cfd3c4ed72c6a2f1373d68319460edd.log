@@ -1,0 +1,187 @@
+2021-11-22T02:07:18+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('Binhymhg@gmail....')
+#2 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp1\htdocs\webtmdt\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-22T02:13:55+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1166
+
+2021-11-22T02:14:21+00:00 CRITICAL syntax error, unexpected token "echo", expecting "," or ";" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1166
+
+2021-11-22T02:15:01+00:00 CRITICAL syntax error, unexpected token "echo", expecting "," or ";" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1166
+
+2021-11-22T02:15:04+00:00 CRITICAL syntax error, unexpected token "echo", expecting "," or ";" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1166
+
+2021-11-22T02:16:02+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1165
+
+2021-11-22T02:28:32+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::renderContent() in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1164
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\class-woocommerce.php(600): include_once()
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): WooCommerce->include_template_functions('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp1\htdocs\webtmdt\wp-config.php(97): require_once('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\webtmdt\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\webtmdt\wp-admin\admin-ajax.php(22): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1164
+
+2021-11-22T02:28:47+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::renderContent() in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1164
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\class-woocommerce.php(600): include_once()
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): WooCommerce->include_template_functions('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp1\htdocs\webtmdt\wp-config.php(97): require_once('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\webtmdt\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(13): require_once('C:\\xampp1\\htdoc...')
+#8 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#9 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1164
+
+2021-11-22T02:28:48+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::renderContent() in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1164
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\class-woocommerce.php(600): include_once()
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): WooCommerce->include_template_functions('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp1\htdocs\webtmdt\wp-config.php(97): require_once('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\webtmdt\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\webtmdt\wp-admin\admin-ajax.php(22): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1164
+
+2021-11-22T02:38:28+00:00 CRITICAL syntax error, unexpected token "protected" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1164
+
+2021-11-22T02:38:47+00:00 CRITICAL syntax error, unexpected token "protected", expecting end of file in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1159
+
+2021-11-22T02:38:49+00:00 CRITICAL syntax error, unexpected token "protected", expecting end of file in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1159
+
+2021-11-22T02:39:08+00:00 CRITICAL syntax error, unexpected token "protected", expecting end of file in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3836
+
+2021-11-22T02:39:10+00:00 CRITICAL syntax error, unexpected token "protected", expecting end of file in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3836
+
+2021-11-22T02:40:50+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::renderContent() in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1165
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\class-woocommerce.php(600): include_once()
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): WooCommerce->include_template_functions('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp1\htdocs\webtmdt\wp-config.php(97): require_once('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\webtmdt\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(13): require_once('C:\\xampp1\\htdoc...')
+#8 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#9 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1165
+
+2021-11-22T02:40:59+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::renderContent() in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1159
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\class-woocommerce.php(600): include_once()
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): WooCommerce->include_template_functions('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp1\htdocs\webtmdt\wp-config.php(97): require_once('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\webtmdt\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(13): require_once('C:\\xampp1\\htdoc...')
+#8 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#9 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1159
+
+2021-11-22T02:41:01+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::renderContent() in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1159
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\class-woocommerce.php(600): include_once()
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): WooCommerce->include_template_functions('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp1\htdocs\webtmdt\wp-config.php(97): require_once('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\webtmdt\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(13): require_once('C:\\xampp1\\htdoc...')
+#8 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#9 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1159
+
+2021-11-22T02:41:02+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::renderContent() in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1159
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\class-woocommerce.php(600): include_once()
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): WooCommerce->include_template_functions('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp1\htdocs\webtmdt\wp-config.php(97): require_once('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\webtmdt\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(13): require_once('C:\\xampp1\\htdoc...')
+#8 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#9 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1159
+
+2021-11-22T02:41:03+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::renderContent() in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1159
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\class-woocommerce.php(600): include_once()
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): WooCommerce->include_template_functions('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp1\htdocs\webtmdt\wp-config.php(97): require_once('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\webtmdt\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(13): require_once('C:\\xampp1\\htdoc...')
+#8 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#9 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1159
+
+2021-11-22T02:42:02+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::renderContent() in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1182
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\class-woocommerce.php(600): include_once()
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): WooCommerce->include_template_functions('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp1\htdocs\webtmdt\wp-config.php(97): require_once('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\webtmdt\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\webtmdt\wp-blog-header.php(13): require_once('C:\\xampp1\\htdoc...')
+#8 C:\xampp1\htdocs\webtmdt\index.php(17): require('C:\\xampp1\\htdoc...')
+#9 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1182
+
+2021-11-22T02:42:08+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::renderContent() in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1182
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\class-woocommerce.php(600): include_once()
+#1 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): WooCommerce->include_template_functions('')
+#2 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp1\htdocs\webtmdt\wp-settings.php(556): do_action('after_setup_the...')
+#5 C:\xampp1\htdocs\webtmdt\wp-config.php(97): require_once('C:\\xampp1\\htdoc...')
+#6 C:\xampp1\htdocs\webtmdt\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\webtmdt\wp-admin\admin-ajax.php(22): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1182
+
+2021-11-22T02:43:12+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1166
+
+2021-11-22T02:43:16+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1166
+
+2021-11-22T02:43:17+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1166
+
+2021-11-22T02:51:24+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('Binhymhg@gmail....')
+#2 C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp1\htdocs\webtmdt\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp1\htdocs\webtmdt\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp1\htdocs\webtmdt\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp1\htdocs\webtmdt\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+

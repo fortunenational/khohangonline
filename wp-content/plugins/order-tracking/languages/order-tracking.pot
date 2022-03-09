@@ -1,0 +1,2031 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Status Tracking Plugin\n"
+"POT-Creation-Date: 2021-06-22 15:33-0400\n"
+"PO-Revision-Date: 2018-10-10 13:03-0400\n"
+"Last-Translator: \n"
+"Language-Team: Etoile Web Design\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ewd-otp-templates/admin-custom-field-file.php:6
+msgid "Current file:"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:13
+msgid "Customer Details"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:22
+#: includes/AdminCustomFields.class.php:86
+#: includes/AdminCustomFields.class.php:102 includes/Dashboard.class.php:138
+#: includes/InstallationWalkthrough.class.php:294
+#: includes/InstallationWalkthrough.class.php:399
+#: includes/Settings.class.php:114
+#: includes/WP_List_Table.OrdersTable.class.php:437
+msgid "Name"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:38
+#: ewd-otp-templates/admin-order-form.php:54
+#: ewd-otp-templates/admin-sales-rep-form.php:54
+#: includes/Settings.class.php:655
+#: includes/WP_List_Table.CustomersTable.class.php:250
+#: includes/WP_List_Table.SalesRepsTable.class.php:266
+msgid "Email"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:54
+#: ewd-otp-templates/admin-order-form.php:172
+#: ewd-otp-templates/customer-order-form.php:64
+#: includes/WP_List_Table.CustomersTable.class.php:251
+#: includes/WP_List_Table.SalesRepsTable.class.php:119
+msgid "Sales Rep"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:73
+#: ewd-otp-templates/admin-customer-form.php:105
+#: ewd-otp-templates/admin-customer-form.php:143
+#: ewd-otp-templates/admin-order-form.php:149
+#: ewd-otp-templates/admin-order-form.php:191
+#: ewd-otp-templates/admin-sales-rep-form.php:81
+#: includes/AdminCustomFields.class.php:169
+msgid "None"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:94
+msgid "Customer WP Username"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:118
+msgid "What WordPress user, if any, is assigned to this customer?"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:132
+msgid "Customer FEUP Username"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:156
+msgid "What FEUP user, if any, is assigned to this customer?"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:171
+msgid "Customer Orders"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:180
+#: ewd-otp-templates/admin-customer-form.php:227
+#: ewd-otp-templates/admin-sales-rep-form.php:116
+#: ewd-otp-templates/admin-sales-rep-form.php:163
+#: includes/WP_List_Table.OrdersTable.class.php:147
+msgid "Order"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:181
+#: ewd-otp-templates/admin-customer-form.php:228
+#: ewd-otp-templates/admin-order-form.php:70
+#: ewd-otp-templates/admin-sales-rep-form.php:117
+#: ewd-otp-templates/admin-sales-rep-form.php:164
+#: includes/Dashboard.class.php:139
+#: includes/InstallationWalkthrough.class.php:206
+#: includes/InstallationWalkthrough.class.php:212
+#: includes/InstallationWalkthrough.class.php:295
+#: includes/InstallationWalkthrough.class.php:401
+#: includes/Settings.class.php:115
+#: includes/WP_List_Table.OrdersTable.class.php:438
+msgid "Status"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:182
+#: ewd-otp-templates/admin-customer-form.php:229
+#: ewd-otp-templates/admin-order-form.php:100
+#: ewd-otp-templates/admin-sales-rep-form.php:118
+#: ewd-otp-templates/admin-sales-rep-form.php:165
+#: includes/InstallationWalkthrough.class.php:296
+#: includes/Settings.class.php:116
+msgid "Location"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:183
+#: ewd-otp-templates/admin-customer-form.php:230
+#: ewd-otp-templates/admin-sales-rep-form.php:119
+#: ewd-otp-templates/admin-sales-rep-form.php:166
+#: includes/Dashboard.class.php:140
+#: includes/WP_List_Table.OrdersTable.class.php:440
+#: includes/WooCommerce.class.php:257
+msgid "Updated"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:245
+msgid "Save Customer"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:245
+msgid "Update Customer"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:251
+#: ewd-otp-templates/admin-order-form.php:559
+#: ewd-otp-templates/admin-sales-rep-form.php:187
+msgid "Need Help?"
+msgstr ""
+
+#: ewd-otp-templates/admin-customer-form.php:276
+#: ewd-otp-templates/admin-order-form.php:444
+#: ewd-otp-templates/admin-sales-rep-form.php:212
+#: includes/AdminCustomFields.class.php:68 order-tracking.php:346
+msgid "Custom Fields"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:13
+msgid "Order Details"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:22
+#: includes/InstallationWalkthrough.class.php:359
+#: includes/Settings.class.php:1468 includes/Settings.class.php:1691
+#: views/View.class.php:397 views/View.class.php:414
+msgid "Order Name"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:38 includes/Dashboard.class.php:137
+#: includes/InstallationWalkthrough.class.php:293
+#: includes/InstallationWalkthrough.class.php:365
+#: includes/InstallationWalkthrough.class.php:400
+#: includes/Settings.class.php:113 includes/Settings.class.php:1457
+#: includes/WP_List_Table.OrdersTable.class.php:436 views/View.class.php:375
+#: views/View.class.php:396
+msgid "Order Number"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:130
+#: includes/WP_List_Table.CustomersTable.class.php:111
+msgid "Customer"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:221
+msgid "Show in Admin Table?"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:228
+#: ewd-otp-templates/admin-order-form.php:429
+#: ewd-otp-templates/admin-order-form.php:516 includes/Settings.class.php:663
+#: includes/WP_List_Table.OrdersTable.class.php:529
+msgid "Yes"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:229
+#: ewd-otp-templates/admin-order-form.php:429
+#: ewd-otp-templates/admin-order-form.php:517 includes/Settings.class.php:662
+#: includes/WP_List_Table.OrdersTable.class.php:529
+msgid "No"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:232
+msgid "Should this order appear in the orders table in the admin area?"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:245
+#: includes/InstallationWalkthrough.class.php:298
+#: includes/Settings.class.php:118
+msgid "Notes"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:254
+msgid "Public Order Notes"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:264
+msgid ""
+"The notes visitors will see if you've included 'Notes' on the options page."
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:276
+msgid "Private Order Notes"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:286
+msgid "Visible only to admins."
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:298
+msgid "Customer Order Notes"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:308
+msgid "The notes about an order posted by the customer from the front-end."
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:323 includes/Settings.class.php:616
+#: includes/Settings.class.php:625 includes/Settings.class.php:638
+msgid "Statuses"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:332
+#: ewd-otp-templates/admin-order-form.php:356
+#: ewd-otp-templates/admin-order-form.php:369
+msgid "Delete?"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:333
+#: ewd-otp-templates/admin-order-form.php:370
+#: includes/InstallationWalkthrough.class.php:377
+#: includes/Settings.class.php:1501 includes/WooCommerce.class.php:255
+#: views/View.class.php:400
+msgid "Order Status"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:334
+#: ewd-otp-templates/admin-order-form.php:371 includes/Settings.class.php:1512
+#: includes/WooCommerce.class.php:256 views/View.class.php:401
+msgid "Order Location"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:335
+#: ewd-otp-templates/admin-order-form.php:372
+msgid "Status Date/Time"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:389
+msgid "Save Order"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:389
+msgid "Update Order"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:395
+#: ewd-otp-templates/admin-order-form.php:404
+msgid "Order Views"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:422
+msgid "Email Tracking Link Clicked"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:479
+msgid "PayPal Payment"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:493
+msgid "Order Payment Price"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:509
+#: ewd-otp-templates/order-payment.php:36
+msgid "Payment Completed"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:520
+msgid "This field should automatically update when payment is made."
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:532
+msgid "PayPal Transaction ID"
+msgstr ""
+
+#: ewd-otp-templates/admin-order-form.php:542
+msgid ""
+"The transaction ID generated by PayPal for this order (leave blank until "
+"payment is made)."
+msgstr ""
+
+#: ewd-otp-templates/admin-sales-rep-form.php:13
+msgid "Sales Rep Details"
+msgstr ""
+
+#: ewd-otp-templates/admin-sales-rep-form.php:22
+#: includes/WP_List_Table.SalesRepsTable.class.php:264
+msgid "First Name"
+msgstr ""
+
+#: ewd-otp-templates/admin-sales-rep-form.php:38
+#: includes/WP_List_Table.SalesRepsTable.class.php:265
+msgid "Last Name"
+msgstr ""
+
+#: ewd-otp-templates/admin-sales-rep-form.php:70
+msgid "Sales Rep WP Username"
+msgstr ""
+
+#: ewd-otp-templates/admin-sales-rep-form.php:94
+msgid "What WordPress user, if any, is assigned to this sales_rep?"
+msgstr ""
+
+#: ewd-otp-templates/admin-sales-rep-form.php:107
+msgid "Sales Rep Orders"
+msgstr ""
+
+#: ewd-otp-templates/admin-sales-rep-form.php:181
+msgid "Save Sales Rep"
+msgstr ""
+
+#: ewd-otp-templates/admin-sales-rep-form.php:181
+msgid "Update Sales Rep"
+msgstr ""
+
+#: ewd-otp-templates/customer-results.php:4
+msgid "Customer Information"
+msgstr ""
+
+#: ewd-otp-templates/order-payment.php:4
+msgid "Order Payment"
+msgstr ""
+
+#: ewd-otp-templates/order-payment.php:15
+msgid "Payment for order number"
+msgstr ""
+
+#: ewd-otp-templates/order-payment.php:26
+msgid "Proceed to Payment"
+msgstr ""
+
+#: ewd-otp-templates/sales-rep-results.php:4
+msgid "Sales Rep Information"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:77
+msgid "FILE AND IMAGE FIELDS"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:77
+msgid ""
+"For security reasons, file and image type fields are not available for use "
+"in the customer order form."
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:87
+#: includes/AdminCustomFields.class.php:107
+msgid "Slug"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:88
+#: includes/AdminCustomFields.class.php:113
+msgid "Type"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:89
+#: includes/AdminCustomFields.class.php:133
+msgid "Input Values"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:90
+#: includes/AdminCustomFields.class.php:139
+msgid "Applicable to"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:91
+#: includes/AdminCustomFields.class.php:153
+msgid "Options"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:92
+#: includes/AdminCustomFields.class.php:165
+msgid "WooCommerce Equivalent"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:117
+msgid "Text"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:118
+msgid "Number"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:119
+msgid "Textarea"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:120
+msgid "Dropdown"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:121
+msgid "Radio"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:122
+msgid "Checkbox"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:123
+msgid "File"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:124
+msgid "Image"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:125
+msgid "Date"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:126
+msgid "Datetime"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:143 includes/AdminOrders.class.php:82
+#: includes/AdminSalesReps.class.php:144 includes/Dashboard.class.php:132
+#: includes/WP_List_Table.OrdersTable.class.php:148 order-tracking.php:341
+msgid "Orders"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:144
+#: includes/AdminCustomers.class.php:84
+#: includes/WP_List_Table.CustomersTable.class.php:112 order-tracking.php:342
+msgid "Customers"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:145
+#: includes/AdminSalesReps.class.php:100
+#: includes/WP_List_Table.SalesRepsTable.class.php:120 order-tracking.php:343
+msgid "Sales Reps"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:156
+msgid "Required"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:157
+msgid "Admin Display?"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:158
+msgid "Front-End Display?"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:170
+msgid "Order Total"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:171
+msgid "Order Currency"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:172
+msgid "Billing First Name"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:173
+msgid "Billing Last Name"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:174
+msgid "Billing Company"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:175
+msgid "Billing City"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:176
+msgid "Billing Country"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:177
+msgid "Billing Email"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:178
+msgid "Billing Phone"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:179
+msgid "Shipping First Name"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:180
+msgid "Shipping Last Name"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:181
+msgid "Shipping Company"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:182
+msgid "Shipping City"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:183
+msgid "Shipping Country"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:184
+msgid "Shipping Email"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:185
+msgid "Shipping Phone"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:192 includes/Settings.class.php:640
+#: includes/Settings.class.php:710 includes/Settings.class.php:761
+#: includes/WP_List_Table.CustomersTable.class.php:315
+#: includes/WP_List_Table.CustomersTable.class.php:365
+#: includes/WP_List_Table.OrdersTable.class.php:507
+#: includes/WP_List_Table.OrdersTable.class.php:569
+#: includes/WP_List_Table.SalesRepsTable.class.php:330
+#: includes/WP_List_Table.SalesRepsTable.class.php:380
+msgid "Delete"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:200
+msgid "&plus;&nbsp;ADD"
+msgstr ""
+
+#: includes/AdminCustomFields.class.php:205
+msgid "Update Fields"
+msgstr ""
+
+#: includes/AdminCustomers.class.php:85 includes/AdminOrders.class.php:83
+#: includes/AdminSalesReps.class.php:101 includes/AdminSalesReps.class.php:145
+msgid "Add New"
+msgstr ""
+
+#: includes/Ajax.class.php:49 views/View.OrderForm.class.php:382
+msgid "There are no order statuses for tracking number: "
+msgstr ""
+
+#: includes/Ajax.class.php:58 views/View.OrderForm.class.php:389
+msgid ""
+"The email submitted does not match the email associated with this order."
+msgstr ""
+
+#: includes/Ajax.class.php:114
+msgid ""
+"The email submitted does not match the email associated with this customer."
+msgstr ""
+
+#: includes/Ajax.class.php:133
+msgid "No orders were found associated with the submitted customer number."
+msgstr ""
+
+#: includes/Ajax.class.php:159
+msgid ""
+"The email submitted does not match the email associated with this sales rep."
+msgstr ""
+
+#: includes/Ajax.class.php:178
+msgid "No orders were found associated with the submitted sales rep number."
+msgstr ""
+
+#: includes/Ajax.class.php:209
+msgid "Customer note has been successfully updated."
+msgstr ""
+
+#: includes/Blocks.class.php:75
+msgid "Order Tracking"
+msgstr ""
+
+#: includes/Dashboard.class.php:90
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Visit our website</a> to learn how to "
+"upgrade to premium."
+msgstr ""
+
+#: includes/Dashboard.class.php:100 includes/Dashboard.class.php:124
+msgid "Get Support"
+msgstr ""
+
+#: includes/Dashboard.class.php:106
+msgid "YouTube Tutorials"
+msgstr ""
+
+#: includes/Dashboard.class.php:112
+msgid "Plugin FAQs"
+msgstr ""
+
+#: includes/Dashboard.class.php:118
+msgid "Documentation"
+msgstr ""
+
+#: includes/Dashboard.class.php:145
+msgid "No orders to display yet. Create an order for it to be displayed here."
+msgstr ""
+
+#: includes/Dashboard.class.php:228
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Visit our website</a> to learn how to get a "
+"free 7-day trial of the premium plugin."
+msgstr ""
+
+#: includes/DeactivationSurvey.class.php:58
+msgid "Quick Feedback"
+msgstr ""
+
+#: includes/DeactivationSurvey.class.php:59
+msgid ""
+"If you have a moment, please share why you are deactivating Order Tracking:"
+msgstr ""
+
+#: includes/DeactivationSurvey.class.php:74
+msgid "Submit and Deactivate"
+msgstr ""
+
+#: includes/DeactivationSurvey.class.php:75
+msgid "Skip and Deactivate"
+msgstr ""
+
+#: includes/Import.class.php:51
+msgid "Spreadsheet Containing Orders"
+msgstr ""
+
+#: includes/Import.class.php:221
+msgid "Orders added successfully."
+msgstr ""
+
+#: includes/Import.class.php:233
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+
+#: includes/Import.class.php:236
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form"
+msgstr ""
+
+#: includes/Import.class.php:239
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#: includes/Import.class.php:242
+msgid "No file was uploaded."
+msgstr ""
+
+#: includes/Import.class.php:246
+msgid "Missing a temporary folder"
+msgstr ""
+
+#: includes/Import.class.php:249
+msgid "Failed to write file to disk"
+msgstr ""
+
+#: includes/Import.class.php:252
+msgid "File upload stopped by extension"
+msgstr ""
+
+#: includes/Import.class.php:256
+msgid "No error code avaiable"
+msgstr ""
+
+#: includes/Import.class.php:261
+msgid "No file was uploaded here.."
+msgstr ""
+
+#: includes/Import.class.php:266
+msgid "File must be .csv, .xls or .xlsx"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:194
+msgid "Welcome to Order Tracking"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:195
+msgid ""
+"Thanks for choosing Order Tracking! The following will help you get started "
+"with the setup by setting up your statuses, creating an order tracking page "
+"and configuring a few key options."
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:199
+msgid "1. Statuses"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:201
+msgid ""
+"Create statuses or edit the default statuses so that they're meaningful for "
+"your visitors."
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:207
+#: includes/InstallationWalkthrough.class.php:213
+msgid "&#37; Complete"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:231
+msgid "Status Name"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:237
+msgid "Percentage Complete"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:245
+msgid "Add Status"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:252
+#: includes/InstallationWalkthrough.class.php:278
+#: includes/InstallationWalkthrough.class.php:346
+msgid "Next"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:259
+msgid "2. Add an Order Tracking Page"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:261
+msgid ""
+"You can create a dedicated tracking page below, or skip this step and add "
+"your tracking form to a page you've already created manually."
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:264
+msgid "Page Title"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:272
+msgid "Create Page"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:279
+#: includes/InstallationWalkthrough.class.php:347
+#: includes/InstallationWalkthrough.class.php:409
+msgid "Previous"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:285
+msgid "3. Set Key Options"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:287
+msgid ""
+"Options can always be changed later, but here are a few that a lot of users "
+"want to set for themselves."
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:290
+#: includes/Settings.class.php:278
+msgid "Order Information Displayed"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:297
+#: includes/Settings.class.php:117
+msgid "Updated Date"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:299
+#: includes/Settings.class.php:119 includes/Settings.class.php:1490
+#: includes/Settings.class.php:1724
+#: includes/WP_List_Table.OrdersTable.class.php:439 views/View.class.php:399
+#: views/View.class.php:416
+msgid "Customer Notes"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:300
+#: includes/Settings.class.php:120
+msgid "Status Graphic"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:301
+msgid "Select what information should be displayed for each order."
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:306
+#: includes/Settings.class.php:334
+msgid "Order Email Frequency"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:310
+#: includes/Settings.class.php:337
+msgid "On Change"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:311
+#: includes/Settings.class.php:338
+msgid "On Creation"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:312
+#: includes/Settings.class.php:339
+msgid "Never"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:313
+#: includes/Settings.class.php:335
+msgid ""
+"How often should emails be sent to customers about the status of their "
+"orders?"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:318
+msgid "Order Form Instructions"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:323
+#: includes/Settings.class.php:302
+msgid "The instructions that will display above the order form."
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:328
+#: includes/Settings.class.php:290
+msgid "Hide Blank Fields"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:338
+#: includes/Settings.class.php:291
+msgid ""
+"Should fields which don't have a value (ex. customer name, custom fields) be "
+"hidden if they're empty?"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:344
+msgid "Save Options"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:354
+msgid "4. Create an Order"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:356
+msgid "Create your first orders. Don't worry, you can always add more later."
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:371
+msgid "Order Email"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:390
+msgid "Add Order"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:396
+msgid "Created Orders"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:410
+msgid "Finish"
+msgstr ""
+
+#: includes/InstallationWalkthrough.class.php:416
+msgid "Skip Setup"
+msgstr ""
+
+#: includes/Notifications.class.php:205
+msgid "Track your order"
+msgstr ""
+
+#: includes/ReviewAsk.class.php:57 includes/Settings.class.php:1212
+#: includes/Settings.class.php:1312 includes/Settings.class.php:1401
+msgid "Email Address"
+msgstr ""
+
+#: includes/Settings.class.php:61
+msgid "Enter the order number you would like to track in the form below."
+msgstr ""
+
+#: includes/Settings.class.php:70
+msgid "Retrieving Results..."
+msgstr ""
+
+#: includes/Settings.class.php:71 views/View.class.php:418
+msgid "Thank you. Your order number is:"
+msgstr ""
+
+#: includes/Settings.class.php:85
+msgid "Australian Dollar"
+msgstr ""
+
+#: includes/Settings.class.php:86
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/Settings.class.php:87
+msgid "Canadian Dollar"
+msgstr ""
+
+#: includes/Settings.class.php:88
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/Settings.class.php:89
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/Settings.class.php:90
+msgid "Euro"
+msgstr ""
+
+#: includes/Settings.class.php:91
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/Settings.class.php:92
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/Settings.class.php:93
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: includes/Settings.class.php:94
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/Settings.class.php:95
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: includes/Settings.class.php:96
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/Settings.class.php:97
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/Settings.class.php:98
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/Settings.class.php:99
+msgid "Philippine Peso"
+msgstr ""
+
+#: includes/Settings.class.php:100
+msgid "Polish Zloty"
+msgstr ""
+
+#: includes/Settings.class.php:101
+msgid "Pound Sterling"
+msgstr ""
+
+#: includes/Settings.class.php:102
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/Settings.class.php:103
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/Settings.class.php:104
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/Settings.class.php:105
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/Settings.class.php:106
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: includes/Settings.class.php:107
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/Settings.class.php:108
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/Settings.class.php:109
+msgid "U.S. Dollar"
+msgstr ""
+
+#: includes/Settings.class.php:121
+msgid "Tracking Map"
+msgstr ""
+
+#: includes/Settings.class.php:122 includes/Settings.class.php:1590
+#: includes/WP_List_Table.CustomersTable.class.php:249 views/View.class.php:407
+msgid "Customer Name"
+msgstr ""
+
+#: includes/Settings.class.php:123 includes/Settings.class.php:1601
+#: views/View.class.php:385 views/View.class.php:408
+msgid "Customer Email"
+msgstr ""
+
+#: includes/Settings.class.php:124 includes/Settings.class.php:125
+#: includes/Settings.class.php:1635 views/View.class.php:410
+msgid "Sales Rep First Name"
+msgstr ""
+
+#: includes/Settings.class.php:126 includes/Settings.class.php:1657
+#: views/View.class.php:392 views/View.class.php:393 views/View.class.php:412
+msgid "Sales Rep Email"
+msgstr ""
+
+#: includes/Settings.class.php:234 includes/Settings.class.php:235
+#: order-tracking.php:295 order-tracking.php:347
+msgid "Settings"
+msgstr ""
+
+#: includes/Settings.class.php:247
+msgid "Basic"
+msgstr ""
+
+#: includes/Settings.class.php:256 includes/Settings.class.php:437
+msgid "General"
+msgstr ""
+
+#: includes/Settings.class.php:267
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/Settings.class.php:268
+msgid ""
+"You can add custom CSS styles to your appointment booking page in the box "
+"above."
+msgstr ""
+
+#: includes/Settings.class.php:279
+msgid "What information should be displayed for your orders?"
+msgstr ""
+
+#: includes/Settings.class.php:301
+msgid "Form Instructions"
+msgstr ""
+
+#: includes/Settings.class.php:312 includes/Settings.class.php:318
+msgid "Date/Time Format"
+msgstr ""
+
+#: includes/Settings.class.php:313
+msgid ""
+"The format to use when displaying dates. Possible options can be: <a href="
+"\"https://www.php.net/manual/en/datetime.format.php\">found here</a>"
+msgstr ""
+
+#: includes/Settings.class.php:322
+msgid "North American (YY-DD-MM)"
+msgstr ""
+
+#: includes/Settings.class.php:323
+msgid "European (DD-MM-YY)"
+msgstr ""
+
+#: includes/Settings.class.php:350
+msgid "Disable AJAX Reloads"
+msgstr ""
+
+#: includes/Settings.class.php:351
+msgid ""
+"Should the use of AJAX to display search results without reloading the page "
+"be disabled?"
+msgstr ""
+
+#: includes/Settings.class.php:361
+msgid "New Window"
+msgstr ""
+
+#: includes/Settings.class.php:362
+msgid ""
+"Should search results open in a new window? (Doesn't work with AJAX reloads)"
+msgstr ""
+
+#: includes/Settings.class.php:372
+msgid "Display \"Print\" Button"
+msgstr ""
+
+#: includes/Settings.class.php:373
+msgid ""
+"Should a \"Print\" button be added to tracking form results, so that "
+"visitors can print their order information more easily?"
+msgstr ""
+
+#: includes/Settings.class.php:383
+msgid "Email Verification"
+msgstr ""
+
+#: includes/Settings.class.php:384
+msgid ""
+"Do visitors need to also enter the email address associated with an order to "
+"be able to view order information?"
+msgstr ""
+
+#: includes/Settings.class.php:394
+msgid "Google Maps API Key"
+msgstr ""
+
+#: includes/Settings.class.php:396
+#, php-format
+msgid ""
+"If you're displaying a map with a map of your order locations ( using the "
+"\"Tracking Map\" checkbox of the \"Order Information\" setting above), "
+"Google requires an API key to use their maps. %sGet an API key%s."
+msgstr ""
+
+#: includes/Settings.class.php:409
+msgid "Status Tracking URL"
+msgstr ""
+
+#: includes/Settings.class.php:410
+msgid ""
+"The URL of your tracking page, required if you want to include a tracking "
+"link in your message body, on the WooCommerce order page, etc.."
+msgstr ""
+
+#: includes/Settings.class.php:427
+msgid "Premium"
+msgstr ""
+
+#: includes/Settings.class.php:450
+msgid "Set Access Role"
+msgstr ""
+
+#: includes/Settings.class.php:451
+msgid "Who should have access to the \"Order Tracking\" admin menu?"
+msgstr ""
+
+#: includes/Settings.class.php:454
+msgid "Administrator"
+msgstr ""
+
+#: includes/Settings.class.php:455
+msgid "Editor"
+msgstr ""
+
+#: includes/Settings.class.php:456
+msgid "Author"
+msgstr ""
+
+#: includes/Settings.class.php:457
+msgid "Contributor"
+msgstr ""
+
+#: includes/Settings.class.php:468
+msgid "Status Tracking Graphic"
+msgstr ""
+
+#: includes/Settings.class.php:469
+msgid ""
+"Which tracking graphic should be displayed, if the graphic is being used for "
+"your orders."
+msgstr ""
+
+#: includes/Settings.class.php:471 includes/Settings.class.php:2015
+msgid "Default"
+msgstr ""
+
+#: includes/Settings.class.php:472
+msgid "Streamlined"
+msgstr ""
+
+#: includes/Settings.class.php:473
+msgid "Sleek"
+msgstr ""
+
+#: includes/Settings.class.php:474
+msgid "Minimalist"
+msgstr ""
+
+#: includes/Settings.class.php:475
+msgid "Round"
+msgstr ""
+
+#: includes/Settings.class.php:486
+msgid "Customer Notes Email"
+msgstr ""
+
+#: includes/Settings.class.php:487
+msgid ""
+"What email, if any, should be sent to the administrator when the customer "
+"note on an order is updated?"
+msgstr ""
+
+#: includes/Settings.class.php:499
+msgid "Customer Order Email"
+msgstr ""
+
+#: includes/Settings.class.php:500
+msgid ""
+"What email, if any, should be sent to the administrator when a new customer "
+"order is created?"
+msgstr ""
+
+#: includes/Settings.class.php:512
+msgid "Allow Customer Downloads"
+msgstr ""
+
+#: includes/Settings.class.php:513
+msgid ""
+"Should customers be able to download all of the information on their orders "
+"as a CSV file?"
+msgstr ""
+
+#: includes/Settings.class.php:523
+msgid "Allow Sales Rep Downloads"
+msgstr ""
+
+#: includes/Settings.class.php:524
+msgid ""
+"Should sales reps be able to download all of the information on their orders "
+"as a CSV file?"
+msgstr ""
+
+#: includes/Settings.class.php:533 includes/Settings.class.php:1678
+#: views/View.CustomerOrderForm.class.php:129
+msgid "Customer Order Form"
+msgstr ""
+
+#: includes/Settings.class.php:546
+msgid "Default Order Status"
+msgstr ""
+
+#: includes/Settings.class.php:547
+msgid ""
+"What status, if any, should an order be set to after when a customer submits "
+"one?"
+msgstr ""
+
+#: includes/Settings.class.php:559
+msgid "Allow Sales Rep Selection"
+msgstr ""
+
+#: includes/Settings.class.php:560
+msgid ""
+"Should an option to choose a sales rep be included in the customer order "
+"form?"
+msgstr ""
+
+#: includes/Settings.class.php:570
+msgid "Assign Orders to Customers"
+msgstr ""
+
+#: includes/Settings.class.php:571
+msgid ""
+"With this enabled, orders submitted using the customer order form will be "
+"automatically assigned to a customer based on their email address."
+msgstr ""
+
+#: includes/Settings.class.php:581
+msgid "Order Number Prefix"
+msgstr ""
+
+#: includes/Settings.class.php:582
+msgid ""
+"Specify a prefix for the auto-generated order number for orders created "
+"using the customer order form"
+msgstr ""
+
+#: includes/Settings.class.php:593
+msgid "Order Number Suffix"
+msgstr ""
+
+#: includes/Settings.class.php:594
+msgid ""
+"Specify a suffix for the auto-generated order number for orders created "
+"using the customer order form"
+msgstr ""
+
+#: includes/Settings.class.php:605
+msgid "Default Sales Rep"
+msgstr ""
+
+#: includes/Settings.class.php:606
+msgid ""
+"Choose a default sales rep for all orders created using the customer order "
+"form (if not using the above option to enable sales rep selection)."
+msgstr ""
+
+#: includes/Settings.class.php:630
+msgid "Statuses let your customers know the current status of their order."
+msgstr ""
+
+#: includes/Settings.class.php:639 includes/Settings.class.php:709
+#: includes/Settings.class.php:760
+msgid "&plus; ADD"
+msgstr ""
+
+#: includes/Settings.class.php:660
+msgid "Internal Status"
+msgstr ""
+
+#: includes/Settings.class.php:683 includes/Settings.class.php:693
+#: includes/Settings.class.php:708
+msgid "Locations"
+msgstr ""
+
+#: includes/Settings.class.php:700
+msgid "Locations help your customers to know where their order is."
+msgstr ""
+
+#: includes/Settings.class.php:736 includes/Settings.class.php:745
+msgid "Emails"
+msgstr ""
+
+#: includes/Settings.class.php:750
+msgid ""
+"What should be in the messages sent to users? You can put [order-name], "
+"[order-number], [order-status], [order-notes], [customer-notes] and [order-"
+"time] into the message, to include current order name, order number, order "
+"status, public order notes or the time the order was updated."
+msgstr ""
+
+#: includes/Settings.class.php:751
+msgid ""
+"You can also use [tracking-link], [customer-name], [customer-id], [sales-"
+"rep] or the slug of a custom field enclosed in square brackets to include "
+"those fields in the email."
+msgstr ""
+
+#: includes/Settings.class.php:759
+msgid "Email Messages"
+msgstr ""
+
+#: includes/Settings.class.php:794
+msgid "Admin Email"
+msgstr ""
+
+#: includes/Settings.class.php:795
+msgid ""
+"What email should customer note and customer order notifications be sent to, "
+"if they've been set in the \"Premium\" area of the \"Options\" tab? Leave "
+"blank to use the WordPress admin email address."
+msgstr ""
+
+#: includes/Settings.class.php:813
+msgid "Payment"
+msgstr ""
+
+#: includes/Settings.class.php:823
+msgid "Payment Options"
+msgstr ""
+
+#: includes/Settings.class.php:836
+msgid "Allow Order Payment By PayPal"
+msgstr ""
+
+#: includes/Settings.class.php:837
+msgid "Should order payment be possible via PayPal?"
+msgstr ""
+
+#: includes/Settings.class.php:847
+msgid "Default Post-Payment Status"
+msgstr ""
+
+#: includes/Settings.class.php:848
+msgid ""
+"What status, if any, should an order be set to after payment is received?"
+msgstr ""
+
+#: includes/Settings.class.php:860
+msgid "PayPal Email Address"
+msgstr ""
+
+#: includes/Settings.class.php:861
+msgid ""
+"If PayPal payments are possible, what email address is associated with the "
+"PayPal account?"
+msgstr ""
+
+#: includes/Settings.class.php:872
+msgid "Pricing Currency"
+msgstr ""
+
+#: includes/Settings.class.php:873
+msgid "What currency are your orders priced in?"
+msgstr ""
+
+#: includes/Settings.class.php:885
+msgid "\"Thank You\" Page URL"
+msgstr ""
+
+#: includes/Settings.class.php:886
+msgid ""
+"What page should customers be taken to after successfully completing a "
+"PayPal payment?"
+msgstr ""
+
+#: includes/Settings.class.php:904
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/Settings.class.php:914
+msgid "WooCommerce Options"
+msgstr ""
+
+#: includes/Settings.class.php:927
+msgid "WooCommerce Integration"
+msgstr ""
+
+#: includes/Settings.class.php:928
+msgid ""
+"Should WooCommerce orders be automatically created inside of the Status "
+"Tracking plugin? (Only works for new orders)"
+msgstr ""
+
+#: includes/Settings.class.php:938
+msgid "WooCommerce Prefix"
+msgstr ""
+
+#: includes/Settings.class.php:939
+msgid "What prefix, if any, should be added to WooCommerce order numbers?"
+msgstr ""
+
+#: includes/Settings.class.php:950
+msgid "Disable WooCommerce Random Suffix"
+msgstr ""
+
+#: includes/Settings.class.php:951
+msgid ""
+"Should the random characters added to WooCommerce orders be not be added?"
+msgstr ""
+
+#: includes/Settings.class.php:961
+msgid "Show Tracking On Order Page"
+msgstr ""
+
+#: includes/Settings.class.php:962
+msgid "Should order status information be displayed on the order page?"
+msgstr ""
+
+#: includes/Settings.class.php:972
+msgid "Location Dropdown for WooCommerce Orders"
+msgstr ""
+
+#: includes/Settings.class.php:973
+msgid ""
+"Should a location dropdown be added to the WooCommerce \"Edit Order\" screen?"
+msgstr ""
+
+#: includes/Settings.class.php:983
+msgid "Replace WooCommerce Statuses with Status Tracking Statuses"
+msgstr ""
+
+#: includes/Settings.class.php:984
+msgid ""
+"Should order tracking statuses replace the default WooCommerce statuses?"
+msgstr ""
+
+#: includes/Settings.class.php:994
+msgid "Revert WooCommerce Statuses on Deactivation"
+msgstr ""
+
+#: includes/Settings.class.php:995
+msgid ""
+"Should WooCommerce orders have there statuses returned to one of the "
+"defaults when the plugin is deactivated?"
+msgstr ""
+
+#: includes/Settings.class.php:1005
+msgid "WooCommerce Completed Order Status"
+msgstr ""
+
+#: includes/Settings.class.php:1006
+msgid "What status should an order be set to when it's paid for successfully?"
+msgstr ""
+
+#: includes/Settings.class.php:1018
+msgid "WooCommerce Unpaid Order Status"
+msgstr ""
+
+#: includes/Settings.class.php:1019
+msgid "What status should an order be set to when it's unpaid?"
+msgstr ""
+
+#: includes/Settings.class.php:1031
+msgid "WooCommerce Processing Order Status"
+msgstr ""
+
+#: includes/Settings.class.php:1032
+msgid "What status should an order be set to when it's processing?"
+msgstr ""
+
+#: includes/Settings.class.php:1044
+msgid "WooCommerce Cancelled Order Status"
+msgstr ""
+
+#: includes/Settings.class.php:1045
+msgid "What status should an order be set to when it's cancelled?"
+msgstr ""
+
+#: includes/Settings.class.php:1057
+msgid "WooCommerce On-Hold Order Status"
+msgstr ""
+
+#: includes/Settings.class.php:1058
+msgid "What status should an order be set to when it's on-hold?"
+msgstr ""
+
+#: includes/Settings.class.php:1070
+msgid "WooCommerce Failed Order Status"
+msgstr ""
+
+#: includes/Settings.class.php:1071
+msgid "What status should an order be set to when it fails?"
+msgstr ""
+
+#: includes/Settings.class.php:1083
+msgid "WooCommerce Refunded Order Status"
+msgstr ""
+
+#: includes/Settings.class.php:1084
+msgid "What status should an order be set to when it's refunded?"
+msgstr ""
+
+#: includes/Settings.class.php:1103
+msgid "Zendesk"
+msgstr ""
+
+#: includes/Settings.class.php:1113
+msgid "Zendesk Options"
+msgstr ""
+
+#: includes/Settings.class.php:1126
+msgid "Zendesk Integration"
+msgstr ""
+
+#: includes/Settings.class.php:1127
+msgid ""
+"Should the plugin listen for new tickets from Zendesk?<br>Check out our <a "
+"style='display:inline; padding-left:0px;' href='http://www.etoilewebdesign."
+"com/status-tracking-zendesk-integration/'>tutorial on setting up Status "
+"Tracking-Zendesk integration</a>"
+msgstr ""
+
+#: includes/Settings.class.php:1137
+msgid "Zendesk API Key (optional)"
+msgstr ""
+
+#: includes/Settings.class.php:1138
+msgid ""
+"The (optional) key you're using to make sure that fake tickets can't be "
+"created by a 3rd party."
+msgstr ""
+
+#: includes/Settings.class.php:1156
+msgid "Labelling"
+msgstr ""
+
+#: includes/Settings.class.php:1166
+msgid "Tracking Form"
+msgstr ""
+
+#: includes/Settings.class.php:1179
+msgid "Tracking Form Title"
+msgstr ""
+
+#: includes/Settings.class.php:1190
+msgid "Order Number Label"
+msgstr ""
+
+#: includes/Settings.class.php:1201
+msgid "Order Number Placeholder"
+msgstr ""
+
+#: includes/Settings.class.php:1223 includes/Settings.class.php:1323
+#: includes/Settings.class.php:1412
+msgid "Email Address Placeholder"
+msgstr ""
+
+#: includes/Settings.class.php:1234 includes/Settings.class.php:1334
+#: includes/Settings.class.php:1423
+msgid "Track button"
+msgstr ""
+
+#: includes/Settings.class.php:1245
+msgid "Retrieving Results"
+msgstr ""
+
+#: includes/Settings.class.php:1255
+msgid "Customer Form"
+msgstr ""
+
+#: includes/Settings.class.php:1268 includes/Settings.class.php:1357
+msgid "Form Title"
+msgstr ""
+
+#: includes/Settings.class.php:1279 includes/Settings.class.php:1368
+msgid "Instructions"
+msgstr ""
+
+#: includes/Settings.class.php:1290
+msgid "Customer Number Label"
+msgstr ""
+
+#: includes/Settings.class.php:1301
+msgid "Customer Number Placeholder"
+msgstr ""
+
+#: includes/Settings.class.php:1344
+msgid "Sales Rep Form"
+msgstr ""
+
+#: includes/Settings.class.php:1379
+msgid "Sales Rep Number Label"
+msgstr ""
+
+#: includes/Settings.class.php:1390
+msgid "Sales Rep Number Placeholder"
+msgstr ""
+
+#: includes/Settings.class.php:1433
+msgid "Order Display Page"
+msgstr ""
+
+#: includes/Settings.class.php:1446 views/View.class.php:395
+msgid "Order Information"
+msgstr ""
+
+#: includes/Settings.class.php:1479 views/View.class.php:398
+msgid "Order Notes"
+msgstr ""
+
+#: includes/Settings.class.php:1523 views/View.class.php:402
+msgid "Order Updated"
+msgstr ""
+
+#: includes/Settings.class.php:1534 views/View.class.php:403
+msgid "Current Location"
+msgstr ""
+
+#: includes/Settings.class.php:1545
+msgid "Print Button"
+msgstr ""
+
+#: includes/Settings.class.php:1556
+msgid "Add Note Button"
+msgstr ""
+
+#: includes/Settings.class.php:1567
+msgid "Update Status Button"
+msgstr ""
+
+#: includes/Settings.class.php:1577
+msgid "Customer Form Display Page"
+msgstr ""
+
+#: includes/Settings.class.php:1612 includes/Settings.class.php:1668
+#: views/View.class.php:409 views/View.class.php:413
+msgid "Download All Orders"
+msgstr ""
+
+#: includes/Settings.class.php:1622
+msgid "Sales Rep Form Display Page"
+msgstr ""
+
+#: includes/Settings.class.php:1646 views/View.class.php:411
+msgid "Sales Rep Last Name"
+msgstr ""
+
+#: includes/Settings.class.php:1702 views/View.class.php:415
+msgid "Order Email Address"
+msgstr ""
+
+#: includes/Settings.class.php:1713
+msgid "Email Instructions"
+msgstr ""
+
+#: includes/Settings.class.php:1735
+msgid "Send Order button"
+msgstr ""
+
+#: includes/Settings.class.php:1746
+msgid "Thank You Message"
+msgstr ""
+
+#: includes/Settings.class.php:1764
+msgid "Styling"
+msgstr ""
+
+#: includes/Settings.class.php:1774
+msgid "Styling Options"
+msgstr ""
+
+#: includes/Settings.class.php:1787
+msgid "Title Font Family"
+msgstr ""
+
+#: includes/Settings.class.php:1798
+msgid "Title Font Size"
+msgstr ""
+
+#: includes/Settings.class.php:1809
+msgid "Title Font Color"
+msgstr ""
+
+#: includes/Settings.class.php:1819
+msgid "Title Margin"
+msgstr ""
+
+#: includes/Settings.class.php:1830
+msgid "Title Padding"
+msgstr ""
+
+#: includes/Settings.class.php:1841
+msgid "Label Font Family"
+msgstr ""
+
+#: includes/Settings.class.php:1852
+msgid "Label Font Size"
+msgstr ""
+
+#: includes/Settings.class.php:1863
+msgid "Label Font Color"
+msgstr ""
+
+#: includes/Settings.class.php:1873
+msgid "Label Margin"
+msgstr ""
+
+#: includes/Settings.class.php:1884
+msgid "Label Padding"
+msgstr ""
+
+#: includes/Settings.class.php:1895
+msgid "Content Font Family"
+msgstr ""
+
+#: includes/Settings.class.php:1906
+msgid "Content Font Size"
+msgstr ""
+
+#: includes/Settings.class.php:1917
+msgid "Content Font Color"
+msgstr ""
+
+#: includes/Settings.class.php:1927
+msgid "Content Margin"
+msgstr ""
+
+#: includes/Settings.class.php:1938
+msgid "Content Padding"
+msgstr ""
+
+#: includes/Settings.class.php:1949
+msgid "Button Font Color"
+msgstr ""
+
+#: includes/Settings.class.php:1959
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/Settings.class.php:1969
+msgid "Button Border"
+msgstr ""
+
+#: includes/Settings.class.php:1980
+msgid "Button Margin"
+msgstr ""
+
+#: includes/Settings.class.php:1991
+msgid "Button Padding"
+msgstr ""
+
+#: includes/Settings.class.php:2016
+msgid "Order Status Update"
+msgstr ""
+
+#: includes/Settings.class.php:2017
+msgid "Hello [order-name], You have an update for your order [order-number]!"
+msgstr ""
+
+#: includes/Settings.class.php:2025
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/Settings.class.php:2031
+msgid "Processing"
+msgstr ""
+
+#: includes/Settings.class.php:2037
+msgid "On Hold"
+msgstr ""
+
+#: includes/Settings.class.php:2043
+msgid "Completed"
+msgstr ""
+
+#: includes/Settings.class.php:2049
+msgid "Cancelled"
+msgstr ""
+
+#: includes/Settings.class.php:2055
+msgid "Refunded"
+msgstr ""
+
+#: includes/Settings.class.php:2061
+msgid "Failed"
+msgstr ""
+
+#: includes/UltimateWPMail.class.php:276
+msgid "Track your order!"
+msgstr ""
+
+#: includes/WP_List_Table.CustomersTable.class.php:173
+#: includes/WP_List_Table.OrdersTable.class.php:297
+#: includes/WP_List_Table.OrdersTable.class.php:352
+#: includes/WP_List_Table.SalesRepsTable.class.php:188
+msgid "All"
+msgstr ""
+
+#: includes/WP_List_Table.CustomersTable.class.php:248
+msgid "Customer ID"
+msgstr ""
+
+#: includes/WP_List_Table.CustomersTable.class.php:314
+#: includes/WP_List_Table.OrdersTable.class.php:505
+#: includes/WP_List_Table.SalesRepsTable.class.php:329
+msgid "Edit"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:298
+msgid "Today"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:299
+msgid "This Week"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:319
+msgid "Start Date:"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:320
+msgid "Start Date"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:321
+#: includes/WP_List_Table.OrdersTable.class.php:326
+msgid "Start Time"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:324
+msgid "End Date:"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:325
+msgid "End Date"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:328
+msgid "Apply"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:330
+msgid "Clear Filter"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:443
+msgid "Payment Made"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:506
+msgid "Hide"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:574
+msgid "Set To Payment Received"
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:583
+msgid "Set To "
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:780
+msgid "You're viewing orders that have been paid."
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:783
+msgid "You're viewing orders that have a particular status."
+msgstr ""
+
+#: includes/WP_List_Table.OrdersTable.class.php:790
+msgid "Only today's orders are being shown."
+msgstr ""
+
+#: includes/WP_List_Table.SalesRepsTable.class.php:263
+msgid "Sales Rep ID"
+msgstr ""
+
+#: includes/WooCommerce.class.php:73
+msgid "WooCommerce Order #"
+msgstr ""
+
+#: includes/WooCommerce.class.php:179
+msgid "Change status to "
+msgstr ""
+
+#: includes/WooCommerce.class.php:246
+msgid "Tracking Information"
+msgstr ""
+
+#: includes/WooCommerce.class.php:290
+msgid "View Detailed Tracking Information"
+msgstr ""
+
+#: includes/WooCommerce.class.php:313
+msgid "Location:"
+msgstr ""
+
+#: includes/Zendesk.class.php:39 includes/Zendesk.class.php:69
+msgid "Ticket created via Zendesk"
+msgstr ""
+
+#: includes/template-functions.php:315
+msgid "Order information has been updated."
+msgstr ""
+
+#: lib/simple-admin-pages/classes/AdminPage.class.php:173
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: lib/simple-admin-pages/classes/AdminPageSetting.FileUpload.class.php:46
+msgid "Current image:"
+msgstr ""
+
+#: lib/simple-admin-pages/classes/AdminPageSetting.FileUpload.class.php:59
+msgid "Upload Image"
+msgstr ""
+
+#: order-tracking.php:295
+msgid "Head to the settings page for Order Tracking"
+msgstr ""
+
+#: order-tracking.php:339
+msgid "MENU"
+msgstr ""
+
+#: order-tracking.php:340
+msgid "Dashboard"
+msgstr ""
+
+#: order-tracking.php:344
+msgid "Export"
+msgstr ""
+
+#: order-tracking.php:345
+msgid "Import"
+msgstr ""
+
+#: views/View.CustomerOrderForm.class.php:130
+msgid "Enter information about your order using the form below."
+msgstr ""
+
+#: views/View.class.php:374
+msgid "Track an Order"
+msgstr ""
+
+#: views/View.class.php:377
+msgid "Order E-mail Address"
+msgstr ""
+
+#: views/View.class.php:379
+msgid "Track"
+msgstr ""
+
+#: views/View.class.php:380
+msgid "Retrieving results..."
+msgstr ""
+
+#: views/View.class.php:381 views/View.class.php:388
+msgid "Track Your Orders"
+msgstr ""
+
+#: views/View.class.php:382
+msgid "Enter your customer ID in the form below to track your orders."
+msgstr ""
+
+#: views/View.class.php:383
+msgid "Customer Number"
+msgstr ""
+
+#: views/View.class.php:387
+msgid "Find Customer"
+msgstr ""
+
+#: views/View.class.php:389
+msgid "Enter your sales rep number in the form below to track your orders."
+msgstr ""
+
+#: views/View.class.php:390 views/View.class.php:391
+msgid "Sales Rep Number"
+msgstr ""
+
+#: views/View.class.php:394
+msgid "Find Sales Rep"
+msgstr ""
+
+#: views/View.class.php:404
+msgid "Print"
+msgstr ""
+
+#: views/View.class.php:405
+msgid "Add Note"
+msgstr ""
+
+#: views/View.class.php:406
+msgid "Update Status"
+msgstr ""
+
+#: views/View.class.php:417
+msgid "Send Order"
+msgstr ""
+
+#: views/View.class.php:419
+msgid ""
+"The email address to send order updates to, if the site administrator has "
+"selected that option."
+msgstr ""

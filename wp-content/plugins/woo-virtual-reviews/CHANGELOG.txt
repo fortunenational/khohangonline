@@ -1,0 +1,57 @@
+/**1.2.1 - 2021.09.18 **/
+- Updated: Hook for limit quantity
+
+/**1.2.0 - 2021.09.15 **/
+- Updated: Random quantity in range
+
+/**1.1.2.4 - 2021.07.31 **/
+- Updated: Update support file
+
+/**1.1.2.3 - 2021.06.18 **/
+- Updated: Update support file
+
+/**1.1.2.2 - 2021.06.12 **/
+- Fixed: Error with product was removed
+
+/**1.1.2.1 - 2021.06.01 **/
+- Update: Dashboard notices
+
+**1.1.2- 2021.05.27**
+- Fixed: Show purchased icon
+
+**1.1.1- 2021.03.29**
+- Fixed: Label row in setting page
+
+**1.1.0- 2021.03.18**
+- Updated: Fix 0 review bug
+
+**1.0.5- 2020.09.18**
+- Fixed: Comment count
+
+**1.0.3- 2020.04.23**
+- Fixed: Rate count, date
+
+**1.0.2.6- 2020.04.23**
+- Updated: Support file
+
+/**1.0.2.4 - 2019.11.16**/
+-Updated: Sanitize input data
+
+/**1.0.2.3 - 2019.10.01**/
+-Updated: Optimize generate reviews
+
+/**1.0.2.2 - 2019.05.24**/
+- Fixed: Import support file
+
+/**1.0.2 - 2019.05.24**/
+-Updated: Auto select rating & first comment
+-Updated: Design purchased label feature
+-Updated: Select style canned desktop, mobile independent
+-Updated: Generate virtual reviews each product by ajax
+
+/**1.0.1 - 2019.04.04**/
+- Updated: Class support
+
+/**1.0.0 - 2018.12.26**/
+- Released
+
